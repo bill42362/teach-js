@@ -19,11 +19,13 @@ console.log('secondConcated:', secondConcated);
 let thirdConcated = numbers.concat(11);
 console.log('thirdConcated:', thirdConcated);
 
+/*
 let numbers2 = numbers.concat();
 console.log('numbers2:', numbers2);
 numbers2[1] = 5;
 console.log('numbers2:', numbers2);
 console.log('after numbers:', numbers);
+ */
 
 // replace + slice => splice
 // numbers.splice(1);
@@ -45,7 +47,7 @@ let firstDiv = document.getElementById('first');
 firstDiv.textContent = 'haha!';
 firstDiv.style = 'background-color: pink; color: skyblue;';
 firstDiv.className = 'hehe';
-//console.log('first:', first);
+console.log('first:', first);
 
 let textDivs = document.getElementsByClassName('text');
 //console.log('textDivs:', textDivs);
